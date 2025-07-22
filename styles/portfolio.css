@@ -1,11 +1,15 @@
 /* Nav styles */
-
 .open-sans-general {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
     "wdth" 100;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 header nav{
     display: flex;
@@ -16,4 +20,49 @@ header nav{
 }
 nav span{
     color: orange ;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.primary-button{
+    background-color: orange;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right; 
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 200px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font: 85px bolder;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner-content{
+    max-width: 580px;
 }
