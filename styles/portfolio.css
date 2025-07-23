@@ -66,3 +66,31 @@ nav ul li{
 .banner-content{
     max-width: 580px;
 }
+
+/* main */
+main{
+    margin: 0px auto;
+    width: 1140px;
+    
+}
+.aobut{
+    background-color: #FFF8F3;
+    padding: 130px 150px;   
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+/* about items styles */
+.about-items{
+    display: flex;
+    align-items: center;
+    /* margin: 40px auto; */
+    justify-content: space-around;
+    /* padding: 40px auto; */
+}
