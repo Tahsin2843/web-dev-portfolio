@@ -68,6 +68,12 @@ nav ul li{
 }
 
 /* main */
+.text-center{
+    text-align: center;
+}
+.description{
+    padding: 10px 120px;
+}
 main{
     margin: 0px auto;
     width: 1140px;
@@ -93,4 +99,35 @@ main{
     /* margin: 40px auto; */
     justify-content: space-around;
     /* padding: 40px auto; */
+}
+.skills-container{
+    display: flex;
+    gap: 100px;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+skill img{
+    display: block;
+    padding: 10px 10px;
+}
+skill skill-title{
+    display: block;
+    padding: 10px 10px;
+}
+skill skill-description{
+    display: block;
+    padding: 10px 10px;
+}
+/* resume-section-styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume hr{
+    margin: 30px 10px;
+}
+.download-cv{
+    margin-top: 80px;
 }
